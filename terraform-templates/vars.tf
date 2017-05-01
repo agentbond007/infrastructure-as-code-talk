@@ -19,10 +19,10 @@ variable "key_pair_name" {
   default = "April2017"
 }
 #
-#  variable "vpc_id" {
-#  description = "The id of the VPC where the ECS cluster should run"
-#   default = "vpc-8426e6e3"
-#}
+  variable "vpc_id" {
+  description = "The id of the VPC where the ECS cluster should run"
+   default = "vpc-8426e6e3"
+}
 
 variable "elb_subnet_ids" {
   description = "A list of subnets where the ELBs should be deployed"
