@@ -9,15 +9,6 @@
 # ENVIRONMENT VARIABLES
 # Define these secrets as environment variables
 # ---------------------------------------------------------------------------------------------------------------------
-
-variable "AWS_ACCESS_KEY_ID" {
-   description = "here"
-}
-variable "AWS_SECRET_ACCESS_KEY" {
-   description = "here"
-}
-
-
 # ---------------------------------------------------------------------------------------------------------------------
 # REQUIRED MODULE PARAMETERS
 # These variables must be passed in by the operator.
