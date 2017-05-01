@@ -18,10 +18,10 @@ variable "key_pair_name" {
   description = "The name of the Key Pair that can be used to SSH to each EC2 instance in the ECS cluster"
   default = "April2017"
 }
-
-variable "vpc_id" {
-  description = "The id of the VPC where the ECS cluster should run"
-}
+#
+#variable "vpc_id" {
+#  description = "The id of the VPC where the ECS cluster should run"
+#}
 
 variable "elb_subnet_ids" {
   description = "A list of subnets where the ELBs should be deployed"
