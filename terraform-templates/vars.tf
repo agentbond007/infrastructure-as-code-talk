@@ -24,12 +24,12 @@ variable "vpc_id" {
 
 variable "elb_subnet_ids" {
   description = "A list of subnets where the ELBs should be deployed"
-  type = "list"
+  default = "subnet-cbfa8a93"
 }
 
 variable "ecs_cluster_subnet_ids" {
   description = "A list of subnets where the EC2 instances for the ECS cluster should be deployed"
-  type = "list"
+  default = "subnet-cbfa8a93"
 }
 
 # ---------------------------------------------------------------------------------------------------------------------
