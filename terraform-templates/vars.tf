@@ -16,6 +16,7 @@
 
 variable "key_pair_name" {
   description = "The name of the Key Pair that can be used to SSH to each EC2 instance in the ECS cluster"
+  default = "April2017"
 }
 
 variable "vpc_id" {
